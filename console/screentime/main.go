@@ -185,6 +185,6 @@ func main() {
 			//log.Printf("Reached maximum number of consecutive upload failures. Skipping uploads.")
 		}
 
-		time.Sleep(20 * time.Second)
+		time.Sleep(60 * time.Second)
 	}
 }
